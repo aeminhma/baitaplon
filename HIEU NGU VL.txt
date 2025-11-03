@@ -1,0 +1,35 @@
+interface gigabitEthernet0/1
+ switchport mode access
+ no shutdown
+exit
+
+
+interface gigabitEthernet0/2
+ switchport mode access
+ no shutdown
+exit
+
+
+interface fastEthernet0/7
+ switchport mode access
+ no shutdown
+exit
+
+
+interface fastEthernet0/8
+ switchport mode access
+ no shutdown
+exit
+
+interface fastEthernet0/3
+ switchport mode access
+ no shutdown
+exit
+
+interface fastEthernet0/11
+ switchport mode access
+ no shutdown
+exit
+
+end
+write
